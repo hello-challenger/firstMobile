@@ -1,0 +1,21 @@
+body {
+    background-color: aquamarine;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    body {
+        background-color: blue;
+    }
+}
+
+@media screen and (min-width: 901px) {
+ body {
+     max-width: 1000px;
+     background-color: tomato;
+ }
+}
+
+
+
+
